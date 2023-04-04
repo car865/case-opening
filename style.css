@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+::root {
+    --select: #5aa3e7;
+    --deluxe: #ca568d;
+    --exclusive: #f6945b;
+    --special: #800080e8;
+    
+}
+
+.case-title {
+    color: white;
+}
+
+.main-box {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+body {
+    background-color: #121212;
+}
+
+button {
+    padding: 1.5rem 6rem;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 2rem;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+p {
+    font-size: 20px;
+}
